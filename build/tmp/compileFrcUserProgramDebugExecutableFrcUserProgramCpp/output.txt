@@ -1,0 +1,4 @@
+See file:///Users/joeserra/Documents/Robotics/robot-template/cpp-robot-base/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramDebugExecutableFrcUserProgramCpp.
+compiling Robot.cpp successful.
+
+Finished compileFrcUserProgramDebugExecutableFrcUserProgramCpp, see full log file:///Users/joeserra/Documents/Robotics/robot-template/cpp-robot-base/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt.

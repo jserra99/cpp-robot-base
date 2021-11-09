@@ -1,0 +1,393 @@
+[
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "debug",
+    "cppPath": "/Users/joeserra/wpilib/2021/roborio/bin/arm-frc2021-linux-gnueabi-g++",
+    "cPath": "/Users/joeserra/wpilib/2021/roborio/bin/arm-frc2021-linux-gnueabi-gcc",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/0533c7ac4eaaa625bbd9a560febc2fe3/wpilibOldCommands-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/2fd71a708b4f03daaeefd02824fdc5fa/wpilibc-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ba54ff8b30709d02351b1ad447b391aa/ntcore-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/298cc0b0a3889c5ab77f59035fbb20a5/hal-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/d7195f6e6aa2c04caf76398649e9d96d/wpiutil-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/3792e7804689f00ccca2c96f74661944/wpimath-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/e02611990393f507cd60308b22b5b288/chipobject-2020.10.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ec3746aecbdb6e097b44a89a115e2dd5/netcomm-2020.10.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/553936a8b6f712d870195ff89240b5a2/visa-2020.10.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/0e810a9588e260e6a484d544327aaaef/cameraserver-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/621066ff95e8dc311fb7ce1a06d192f5/cscore-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/8bc86fbd28f7008def287a0f856104f7/opencv-cpp-3.4.7-5-headers/",
+      "/Users/joeserra/Documents/Robotics/robot-template/cpp-robot-base/src/main/include/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ca4eb47c9f52168710688345544c4b38/wpilibOldCommands-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ffee30a66941bf3e3f0ce96963aaf41c/wpilibc-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/3744827c0d2a78e61aea8f1d8fb08be0/ntcore-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/07ef794ced038dc9cca951123b904fbd/hal-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/1d0faf6e083ca3f79ea3860db22288b4/wpiutil-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/0292cfba72631784cfe6b1eccc924eb0/wpimath-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/62199dc9d95a88a557c174431270c91e/cameraserver-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/755337a63362760b694b34f92980a2bc/cscore-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/4d6be7bf8be3ea7e38b835f3398233c7/opencv-cpp-3.4.7-5-sources/"
+    ],
+    "allLibSources": [
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ca4eb47c9f52168710688345544c4b38/wpilibOldCommands-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ffee30a66941bf3e3f0ce96963aaf41c/wpilibc-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/3744827c0d2a78e61aea8f1d8fb08be0/ntcore-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/07ef794ced038dc9cca951123b904fbd/hal-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/1d0faf6e083ca3f79ea3860db22288b4/wpiutil-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/0292cfba72631784cfe6b1eccc924eb0/wpimath-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/62199dc9d95a88a557c174431270c91e/cameraserver-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/755337a63362760b694b34f92980a2bc/cscore-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/4d6be7bf8be3ea7e38b835f3398233c7/opencv-cpp-3.4.7-5-sources/"
+    ],
+    "allLibHeaders": [
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/0533c7ac4eaaa625bbd9a560febc2fe3/wpilibOldCommands-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/2fd71a708b4f03daaeefd02824fdc5fa/wpilibc-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ba54ff8b30709d02351b1ad447b391aa/ntcore-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/298cc0b0a3889c5ab77f59035fbb20a5/hal-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/d7195f6e6aa2c04caf76398649e9d96d/wpiutil-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/3792e7804689f00ccca2c96f74661944/wpimath-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/e02611990393f507cd60308b22b5b288/chipobject-2020.10.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ec3746aecbdb6e097b44a89a115e2dd5/netcomm-2020.10.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/553936a8b6f712d870195ff89240b5a2/visa-2020.10.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/0e810a9588e260e6a484d544327aaaef/cameraserver-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/621066ff95e8dc311fb7ce1a06d192f5/cscore-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/8bc86fbd28f7008def287a0f856104f7/opencv-cpp-3.4.7-5-headers/",
+      "/Users/joeserra/Documents/Robotics/robot-template/cpp-robot-base/src/main/include/"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/joeserra/Documents/Robotics/robot-template/cpp-robot-base/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/joeserra/Documents/Robotics/robot-template/cpp-robot-base/src/main/include/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-Og",
+              "-g"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/0533c7ac4eaaa625bbd9a560febc2fe3/wpilibOldCommands-cpp-2021.3.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/2fd71a708b4f03daaeefd02824fdc5fa/wpilibc-cpp-2021.3.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ba54ff8b30709d02351b1ad447b391aa/ntcore-cpp-2021.3.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/298cc0b0a3889c5ab77f59035fbb20a5/hal-cpp-2021.3.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/d7195f6e6aa2c04caf76398649e9d96d/wpiutil-cpp-2021.3.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/3792e7804689f00ccca2c96f74661944/wpimath-cpp-2021.3.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/e02611990393f507cd60308b22b5b288/chipobject-2020.10.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ec3746aecbdb6e097b44a89a115e2dd5/netcomm-2020.10.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/553936a8b6f712d870195ff89240b5a2/visa-2020.10.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/0e810a9588e260e6a484d544327aaaef/cameraserver-cpp-2021.3.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/621066ff95e8dc311fb7ce1a06d192f5/cscore-cpp-2021.3.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/8bc86fbd28f7008def287a0f856104f7/opencv-cpp-3.4.7-5-headers/",
+          "/Users/joeserra/Documents/Robotics/robot-template/cpp-robot-base/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/joeserra/Documents/Robotics/robot-template/cpp-robot-base/src/main/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og",
+          "-g"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/joeserra/Documents/Robotics/robot-template/cpp-robot-base/src/main/include/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-Og",
+          "-g"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  },
+  {
+    "name": "linuxathena",
+    "architecture": "arm-v7",
+    "operatingSystem": "linux",
+    "flavor": "default",
+    "buildType": "release",
+    "cppPath": "/Users/joeserra/wpilib/2021/roborio/bin/arm-frc2021-linux-gnueabi-g++",
+    "cPath": "/Users/joeserra/wpilib/2021/roborio/bin/arm-frc2021-linux-gnueabi-gcc",
+    "msvc": false,
+    "gcc": true,
+    "systemCppMacros": [],
+    "systemCppArgs": [],
+    "systemCMacros": [],
+    "systemCArgs": [],
+    "allLibFiles": [
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/0533c7ac4eaaa625bbd9a560febc2fe3/wpilibOldCommands-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/2fd71a708b4f03daaeefd02824fdc5fa/wpilibc-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ba54ff8b30709d02351b1ad447b391aa/ntcore-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/298cc0b0a3889c5ab77f59035fbb20a5/hal-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/d7195f6e6aa2c04caf76398649e9d96d/wpiutil-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/3792e7804689f00ccca2c96f74661944/wpimath-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/e02611990393f507cd60308b22b5b288/chipobject-2020.10.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ec3746aecbdb6e097b44a89a115e2dd5/netcomm-2020.10.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/553936a8b6f712d870195ff89240b5a2/visa-2020.10.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/0e810a9588e260e6a484d544327aaaef/cameraserver-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/621066ff95e8dc311fb7ce1a06d192f5/cscore-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/8bc86fbd28f7008def287a0f856104f7/opencv-cpp-3.4.7-5-headers/",
+      "/Users/joeserra/Documents/Robotics/robot-template/cpp-robot-base/src/main/include/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ca4eb47c9f52168710688345544c4b38/wpilibOldCommands-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ffee30a66941bf3e3f0ce96963aaf41c/wpilibc-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/3744827c0d2a78e61aea8f1d8fb08be0/ntcore-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/07ef794ced038dc9cca951123b904fbd/hal-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/1d0faf6e083ca3f79ea3860db22288b4/wpiutil-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/0292cfba72631784cfe6b1eccc924eb0/wpimath-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/62199dc9d95a88a557c174431270c91e/cameraserver-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/755337a63362760b694b34f92980a2bc/cscore-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/4d6be7bf8be3ea7e38b835f3398233c7/opencv-cpp-3.4.7-5-sources/"
+    ],
+    "allLibSources": [
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ca4eb47c9f52168710688345544c4b38/wpilibOldCommands-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ffee30a66941bf3e3f0ce96963aaf41c/wpilibc-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/3744827c0d2a78e61aea8f1d8fb08be0/ntcore-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/07ef794ced038dc9cca951123b904fbd/hal-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/1d0faf6e083ca3f79ea3860db22288b4/wpiutil-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/0292cfba72631784cfe6b1eccc924eb0/wpimath-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/62199dc9d95a88a557c174431270c91e/cameraserver-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/755337a63362760b694b34f92980a2bc/cscore-cpp-2021.3.1-sources/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/4d6be7bf8be3ea7e38b835f3398233c7/opencv-cpp-3.4.7-5-sources/"
+    ],
+    "allLibHeaders": [
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/0533c7ac4eaaa625bbd9a560febc2fe3/wpilibOldCommands-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/2fd71a708b4f03daaeefd02824fdc5fa/wpilibc-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ba54ff8b30709d02351b1ad447b391aa/ntcore-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/298cc0b0a3889c5ab77f59035fbb20a5/hal-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/d7195f6e6aa2c04caf76398649e9d96d/wpiutil-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/3792e7804689f00ccca2c96f74661944/wpimath-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/e02611990393f507cd60308b22b5b288/chipobject-2020.10.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ec3746aecbdb6e097b44a89a115e2dd5/netcomm-2020.10.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/553936a8b6f712d870195ff89240b5a2/visa-2020.10.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/0e810a9588e260e6a484d544327aaaef/cameraserver-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/621066ff95e8dc311fb7ce1a06d192f5/cscore-cpp-2021.3.1-headers/",
+      "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/8bc86fbd28f7008def287a0f856104f7/opencv-cpp-3.4.7-5-headers/",
+      "/Users/joeserra/Documents/Robotics/robot-template/cpp-robot-base/src/main/include/"
+    ],
+    "binaries": [
+      {
+        "componentName": "frcUserProgram",
+        "sourceSets": [
+          {
+            "source": {
+              "srcDirs": [
+                "/Users/joeserra/Documents/Robotics/robot-template/cpp-robot-base/src/main/cpp/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "exportedHeaders": {
+              "srcDirs": [
+                "/Users/joeserra/Documents/Robotics/robot-template/cpp-robot-base/src/main/include/"
+              ],
+              "includes": [
+                "**/*.cpp",
+                "**/*.cc"
+              ],
+              "excludes": []
+            },
+            "cpp": true,
+            "args": [
+              "-Wall",
+              "-Wextra",
+              "-std=c++17",
+              "-Wformat=2",
+              "-pedantic",
+              "-Wno-psabi",
+              "-Wno-unused-parameter",
+              "-Wno-error=deprecated-declarations",
+              "-fPIC",
+              "-rdynamic",
+              "-pthread",
+              "-O2"
+            ],
+            "macros": []
+          }
+        ],
+        "libHeaders": [
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/0533c7ac4eaaa625bbd9a560febc2fe3/wpilibOldCommands-cpp-2021.3.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/2fd71a708b4f03daaeefd02824fdc5fa/wpilibc-cpp-2021.3.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ba54ff8b30709d02351b1ad447b391aa/ntcore-cpp-2021.3.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/298cc0b0a3889c5ab77f59035fbb20a5/hal-cpp-2021.3.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/d7195f6e6aa2c04caf76398649e9d96d/wpiutil-cpp-2021.3.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/3792e7804689f00ccca2c96f74661944/wpimath-cpp-2021.3.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/e02611990393f507cd60308b22b5b288/chipobject-2020.10.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/ec3746aecbdb6e097b44a89a115e2dd5/netcomm-2020.10.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/553936a8b6f712d870195ff89240b5a2/visa-2020.10.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/0e810a9588e260e6a484d544327aaaef/cameraserver-cpp-2021.3.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/621066ff95e8dc311fb7ce1a06d192f5/cscore-cpp-2021.3.1-headers/",
+          "/Users/joeserra/.gradle/caches/transforms-2/files-2.1/8bc86fbd28f7008def287a0f856104f7/opencv-cpp-3.4.7-5-headers/",
+          "/Users/joeserra/Documents/Robotics/robot-template/cpp-robot-base/src/main/include/"
+        ],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "sourceBinaries": [
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/joeserra/Documents/Robotics/robot-template/cpp-robot-base/src/main/cpp/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      },
+      {
+        "source": {
+          "srcDirs": [
+            "/Users/joeserra/Documents/Robotics/robot-template/cpp-robot-base/src/main/include/"
+          ],
+          "includes": [
+            "**/*.cpp",
+            "**/*.cc"
+          ],
+          "excludes": []
+        },
+        "componentName": "frcUserProgram",
+        "cpp": true,
+        "args": [
+          "-Wall",
+          "-Wextra",
+          "-std=c++17",
+          "-Wformat=2",
+          "-pedantic",
+          "-Wno-psabi",
+          "-Wno-unused-parameter",
+          "-Wno-error=deprecated-declarations",
+          "-fPIC",
+          "-rdynamic",
+          "-pthread",
+          "-O2"
+        ],
+        "macros": [],
+        "sharedLibrary": false,
+        "executable": true
+      }
+    ],
+    "nameBinaryMap": {
+      "frcUserProgram": 0
+    }
+  }
+]
